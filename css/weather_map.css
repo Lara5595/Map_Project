@@ -15,3 +15,38 @@ body {
     border: 2px solid black;
     border-radius: 15px;
 }
+
+/* coor display a small box with the coordinates*/
+.coordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
+
+
+/*This centers the menu for the map themes*/
+
+
+#menu {
+    position: absolute;
+    background: #efefef;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(0deg, rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0));
+    text-align: center;
+    justify-self: center;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.radio {
+    padding-right: 60px;
+}

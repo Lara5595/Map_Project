@@ -40,7 +40,37 @@
     <div class="container row mx-auto ">
         <div id="map" class="mx-auto mt-4 mb-4"></div>
     </div>
+    <!--makes the bar to change types of maps-->
+    <div id="menu">
+        <input class="radio" id="satellite-v9" type="radio" name="rtoggle" value="satellite" checked="checked">
+        <!-- See a list of Mapbox-hosted public styles at -->
+        <!-- https://docs.mapbox.com/api/maps/styles/#mapbox-styles -->
+        <label class="radio" for="satellite-v9">Satellite</label>
+        <input  id="light-v10" type="radio" name="rtoggle" value="light">
+        <label class="radio" for="light-v10">Light</label>
+        <input  id="dark-v10" type="radio" name="rtoggle" value="dark">
+        <label class="radio" for="dark-v10">Dark</label>
+        <input  id="streets-v11" type="radio" name="rtoggle" value="streets">
+        <label class="radio" for="streets-v11">Streets</label>
+        <input  id="outdoors-v11" type="radio" name="rtoggle" value="outdoors">
+        <label class="radio" for="outdoors-v11">Outdoors</label>
+    </div>
+    <pre id="coordinates" class="coordinates"></pre>
+    <!--^^-->
 
+    <!-- cards container    -->
+    <div class="container-fluid row mt-5 justify-content-center" id="cards"> </div>
+
+    <!--    button to search city-->
+
+    <!--button search-->
+    <div class="input-group justify-content-center" id="buttonPlacement">
+        <label class="form-label m-2 me-4" for="form1">Find a Location</label>
+        <div class="form-outline">
+            <input type="search" id="form1" class="form-control" />
+        </div>
+        <button type="button" class="btn btn-primary ms-4" id="setMarkerButton"> Find</button>
+    </div>
 
 
     <script src="js/jquery-3.6.1.min.js"></script>
