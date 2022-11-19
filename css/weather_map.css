@@ -1,0 +1,17 @@
+*{
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body {
+    background: #eee;
+    background: linear-gradient(0deg, rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0));
+}
+
+/*You have to set a size to the map for it to show*/
+#map {
+    height: 350px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
