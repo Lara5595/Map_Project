@@ -50,3 +50,62 @@ body {
 .radio {
     padding-right: 60px;
 }
+
+
+
+
+/* Targets the weather descriptions*/
+.date {
+    background-color: gray;
+    border: 1px solid black;
+    opacity: 95%;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.city {
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.humidity {
+    text-align: center;
+}
+
+.wind {
+    text-align: center;
+}
+
+.preassure {
+    text-align: center;
+}
+/*^^*/
+
+#buttonPlacement {
+    margin-top: 4em;
+
+}
+
+
+/* Mobile*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        margin: 3em;
+    }
+
+    #buttonPlacement {
+        position: absolute;
+        top: 550px;
+        right: 20px;
+    }
+}
