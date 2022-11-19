@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Weather Map</title>
+    <!--    this is a link for mapbox library-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+    <!--    bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--keys js .gitignore-->
+    <script src="js/keys.js"></script>
+    <!--    geocoder.js link-->
+    <script src="js/mapbox-geocoder-utils.js"></script>
+    <link rel="stylesheet" href="weather_map.css">
+    <!--    Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!--    link for css-->
+    <link rel="stylesheet" href="css/weather_map.css">
+    <!--    Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/download.png">
+
+
 </head>
 <body>
+<!--Nav-->
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand ms-5 mb-0 h1">Weather App</span>
+        <span class="logo  d-flex justify-content-center"><img src="img/WeatherUp-1.png"> </span>
+        <span class="navbar-brand d-flex me-5" id="currentCity"> Current city: </span>
+    </nav>
 
 </body>
 </html>
