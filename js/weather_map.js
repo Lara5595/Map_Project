@@ -1,5 +1,6 @@
 $(function () {
 
+    // The website for the api is mapbox.com
     // This creates the map
     mapboxgl.accessToken = MAPBOX_API_TOKEN;  //we gave our token a var MAPBOX on keys.js
     const map = new mapboxgl.Map({
